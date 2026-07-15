@@ -14,7 +14,7 @@ public class GoogleBooks {
         System.out.println("Digite o título do livro para a busca: ");
         var tituloLivro = leitura.nextLine();
 
-        String chave = "AIzaSyCd1-Jyvxf6X-_QI_gOr5ow-gtOnKApJZs";
+        String chave = "Chave da API";
         String tituloCodificado = URLEncoder.encode(tituloLivro, StandardCharsets.UTF_8);
         String endereco = "https://www.googleapis.com/books/v1/volumes?q=" + tituloCodificado + "&key=" + chave;
 
